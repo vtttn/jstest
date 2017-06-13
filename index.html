@@ -12,11 +12,13 @@
 
 		amountRaisedSoFar = Number(newDonation) + amountRaisedSoFar;
 
-				if ( confirmDonation === true) {
+			if ( confirmDonation === true) {
 			alert('We have now raised: $' + amountRaisedSoFar + '!');
-				} else {
+			} else {
 			prompt('How much would you like to donate?');
-				} // figure out how to loop this block to get it back to the prompt()
+			} 
+
+			// figure out how to loop this block to get it back to the prompt()
 
 	
 	// how to set numbers to $00.00
@@ -58,8 +60,8 @@
 
 
 	
-		// Challenge 2
-		// Is today a great day for a swim?
+	// Challenge 2
+	// Is today a great day for a swim?
 
 		var tempToday = 80;
 		var rainToday = false;
@@ -77,16 +79,16 @@
 	// Challenge 3
 	// 99 Bottles
 
-			var beerBottles = 99;
+		var beerBottles = 99;
 
-			for(beerBottles; beerBottles >= 0; beerBottles --) {
+		for(beerBottles; beerBottles >= 0; beerBottles --) {
 
-				if(beerBottles > 0) {
-					console.log(beerBottles + ' bottles of beer on the wall. ' + beerBottles + ' bottles of beer. You take one down, pass it around, ' + (beerBottles - 1) + ' bottles of beer on the wall.');
-				} else {
-					console.log('Hey! We need more beer!');
-				} 
-			}
+			if(beerBottles > 0) {
+				console.log(beerBottles + ' bottles of beer on the wall! ' + beerBottles + ' bottles of BEER~. You take one down, pass it around, ' + (beerBottles - 1) + ' bottles of beer on the wall.');
+			} else {
+				console.log('Hey! We need more beer!');
+			} 
+		}
 
 
 
