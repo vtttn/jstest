@@ -6,12 +6,15 @@
 
 		var amountRaisedSoFar = 1000;
 		var newDonation = prompt('How much would you like to donate?');
+		var confirmDonation = confirm('You are about to donate $' + newDonation);
 
 		amountRaisedSoFar = Number(newDonation) + amountRaisedSoFar;
 
-		confirm('You are about to donate $' + newDonation);
-
-		alert('We have now raised: $' + amountRaisedSoFar + '!');
+				if ( confirmDonation === true) {
+			alert('We have now raised: $' + amountRaisedSoFar + '!');
+				} else {
+			prompt('How much would you like to donate?');
+				}
 
 	</script>
 
