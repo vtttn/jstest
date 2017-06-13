@@ -4,6 +4,8 @@
 
 	<script type="text/javascript">
 
+	/* Donation Function 
+
 		var amountRaisedSoFar = 1000;
 		var newDonation = prompt('How much would you like to donate?');
 		var confirmDonation = confirm('You are about to donate $' + newDonation);
@@ -14,7 +16,19 @@
 			alert('We have now raised: $' + amountRaisedSoFar + '!');
 				} else {
 			prompt('How much would you like to donate?');
-				}
+				} // figure out how to loop this block to get it back to the prompt()
+
+	*/
+
+		var cost = 215.12;
+        var salestax = .045;
+
+        var salestaxtotal = cost * salestax;
+
+        salestaxtotal = (Math.round(salestaxtotal * 100))/100;
+
+        var myNum = salestaxtotal;
+        console.log(myNum);
 
 	</script>
 
